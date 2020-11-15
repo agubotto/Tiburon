@@ -44,7 +44,7 @@ ul {
   color: var(--lightpink-color);
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 2rem;
   margin-left: 10px;
 }
 
@@ -68,14 +68,14 @@ ul {
 
 .hero-title {
   color: var(--yellow-color);
-  font-size: 5.2rem;
+  font-size: 7rem;
   word-wrap: break-word;
   font-family: "Germania One";
   text-align: center;
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-family: "Rasa", sans-serif;
   text-align: center;
   color: var(--lightpink-color);
