@@ -1,0 +1,92 @@
+:root {
+  --purple-color: #794c74;
+  --pink-color: #c56183;
+  --lightpink-color: #ffaeae;
+  --yellow-color: #fadcaa;
+  --lightblue-color: #b2deec;
+}
+
+* {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 62.5%;
+}
+
+header {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  height: 45px;
+}
+
+header .logo {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  right: calc(50% - 32px / 2);
+}
+
+.navbar {
+  justify-self: flex-end;
+  margin-right: 10px;
+}
+li {
+  margin-right: 7px;
+}
+ul {
+  display: flex;
+}
+
+.navbar-menu_item {
+  color: var(--lightpink-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.navbar-menu {
+  list-style: none;
+}
+
+.hero {
+  color: white;
+  background: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px 0;
+}
+
+.hero-text {
+  align-self: center;
+  box-align: center;
+  padding-bottom: 20px;
+}
+
+.hero-title {
+  color: var(--yellow-color);
+  font-size: 5.2rem;
+  word-wrap: break-word;
+  font-family: "Germania One";
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-family: "Rasa", sans-serif;
+  text-align: center;
+  color: var(--lightpink-color);
+}
+
+.hero-figure {
+  width: auto;
+  justify-self: end;
+}
+
+.hero-figure__image {
+  max-width: 100%;
+  height: auto;
+}
