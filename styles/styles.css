@@ -5,6 +5,14 @@
   --yellow-color: #fadcaa;
   --lightblue-color: #b2deec;
 }
+/*
+font-family: 'Encode Sans', sans-serif;
+font-family: 'Germania One', cursive;
+font-family: 'Rasa', serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
 
 * {
   margin: 0;
@@ -89,4 +97,69 @@ ul {
 .hero-figure__image {
   max-width: 100%;
   height: auto;
+}
+.app-items {
+  color: black;
+  padding: 50px 0px;
+  margin-left: 40%;
+  align-content: center;
+}
+.app-content {
+  display: grid;
+
+  grid-template-columns: 30% 30% 30%;
+}
+.app {
+  background: #ffaeae;
+}
+.app-title {
+  font-size: 3rem;
+  align-content: center;
+  padding-left: 30px;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+}
+.app-smart {
+  font-size: 3.1rem;
+  font-family: "Germania One", cursive;
+  display: flex;
+}
+
+.app-img {
+  padding-bottom: 20px;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  padding-right: 30px;
+}
+.app-text {
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 1.4rem;
+}
+.obj {
+  background: linear-gradient(
+      180deg,
+      #ffaeae 16.15%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #b2deec;
+  color: black;
+}
+.obj-titl {
+  padding-top: 100px;
+
+  font-size: 3rem;
+  align-content: center;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  font-family: "Encode Sans", sans-serif;
+}
+.obj-text {
+  padding: 30px 20px 10px 40px;
+  font-size: 1.5rem;
+  align-content: center;
+  font-family: "Cousine", monospace;
+  text-align: center;
 }
